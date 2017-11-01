@@ -1,0 +1,361 @@
+<idoctype html>
+<head>
+	<meta charset = "utf-8">
+	<link href='normalize.css' rel="stylesheet">
+	<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+	<style>
+		html { font-family: 'Spoqa Han Sans'; font-weight: 200;}
+		header {width:1200px; height:44px; position: fixed;left:calc(50% - 600px);z-index: 9999;}
+		header #logo {float:left;  width:100px;height:44px;line-height: 44px;text-align: center;color:black;font-size: 0.8em;font-weight:400;}
+		header #menu {float:right; width:600px;}
+		header #menu li{float:left; width:100px; height: 44px; line-height:44px;text-align: center;color:black;font-size: 0.8em;font-weight:400;cursor:pointer;}
+		header #menu li:hover{background: #cf2e33}
+		h1{color:black;font-size: 4em;font-weight: 100;text-align: center;padding-top:90px; line-height: 2;letter-spacing: 1px;}
+		h2{color:black;font-size: 1.2em;font-weight: 400;text-align: left;padding-top:310px; line-height: 2;padding-left: 60px;padding-right: 100px;}
+		p{color:black; font-size: 1em;line-height: 1.8; font-weight: 400;text-align: left;}
+		p#C_text{color:white; font-size: 2em; line-height: 2; font-weight: 400;text-align: left;}
+		p#F_text{color:white; font-size: 1em;line-height: 1.8; font-weight: 400;text-align: left;}
+		hr{width: 35px; height:1.7px; text-align:left; margin:0; margin-left:1px;margin-bottom: 26px; background-color:black; border:0px;}
+		hr.white_line{width: 35px; height:4px; text-align:left; margin:0; margin-left:1px;margin-top: 30px; background-color:white; border:0px;}
+		h3{padding-top:130px; line-height: 2;padding-left: 100px;padding-right: 100px;letter-spacing: 1px;}
+		mark{background-color: black ;color:white;}
+		h4{color:#cf2e33;font-size: 2em;font-weight: 500;text-align: center;padding-top:230px; line-height: 2;padding-left: 100px;padding-right: 100px;letter-spacing: 1px;}
+		h5{color:black; font-size: 4em;font-weight: 100;text-align: center;padding-top:300px; line-height: 1;padding-left: 100px;padding-right: 100px;letter-spacing: 1px;}
+		.section{width:1200px; height:800px; margin:0 auto;position: relative}
+		#sectionA{ background: white; transition: all 1s; }
+		#sectionB{ background: white; transition: all 1s; }
+		#sectionC{ background: url('./flower_beer_2.jpg');background-size:100% auto;}
+		#sectionD{ background: white; transition: all 1s; }
+		#sectionE{ background: white; transition: all 1s; }
+		#sectionF{ background: url('./back-01.png');background-size:100% auto;  }
+		#sectionG{ background:url('./back-02.png');background-size:100% auto;} 
+		#sectionH{ background: url('./back-04.png');background-size:100% auto; }
+		#sectionI{ background: url('./back-03.png');background-size:100% auto; }
+
+		#titleA{width:1200px; position:relative; transition: all 1s;}
+		#titleB{position:relative; transition: all 1s;}
+		#titleC{position:relative; transition: all 1s;}
+		#titleD{position:relative; transition: all 1s;}
+		#titleE{position:relative; transition: all 1s;}
+		#titleG{position:relative; transition: all 1s;}
+		#text_A{width: 1200px; height:200px; left:calc(50 - 100px);float: left; position:relative;}
+        #img_A{width: 600px; height:600px; float: left; position:relative; overflow: hidden;}
+        img#flower{width: 550px; height:550px; float: left; position:absolute;margin-top: 50px;}
+        img#beer{width: 300px; height:500px; float: left; position:relative;margin-top: 130px; margin-left: 250px;}
+        #text_B{width: 700px; height:800px; float: left; position:relative;}
+        #img_B{width: 500px; height:800px; float: left; position:relative;}
+        img#logo_red{width: 190px; height:450px; float: left; position:absolute;margin-top: 175px;margin-left: 160px;}
+		#icon{width:20px;height:20px;
+			position:relative;
+			animation:iconMove 5s infinite linear;	}
+			@keyframes iconMove{
+			0%{ top:0px; left:300px; transform: rotateZ(0deg)}
+			25%{ top:0px; left:600px; }
+			50%{ top:400px; left:900px; }
+			75%{ top:100px; left:1000px; }
+			100%{ top:500px; left:300px; transform: rotateZ(2000deg);}
+		#sectionA h2{left:200px; top:200px;position: absolute;}
+		}
+
+/* Slideshow */
+/* Slideshow */
+/* Slideshow */
+
+
+.mySlides .slide-box{width:1200px;height:800px;}
+.mySlides .slide-box img{position: absolute; transition: all 0.5s;}
+.text_box{width:600px; height: 800px; float: left;}
+.img_box{width:600px; height: 800px; float: left;}
+img#graphic{width:450px; height:450px;margin-top: 130px; margin-top: 160px; margin-left: 75px;}
+.text_main{height: 100px;padding-top: 220px; padding-left: 70px;}
+.text_sub{ font-weight: 300; font-size: 1em; line-height:30px; padding-top: 120px; padding-left: 80px;}
+.img_box_2{width:600px; height: 750px; float: left;}
+img#bottle{width:770px; margin-top: 50px; margin-left: -60px; float: left;overflow: hidden;}
+.text_box_2{width:600px; height: 600px; float: left;margin-top: 160px; padding-left: 30px;}
+.text_main_2{ font-weight:600; color:white; font-size: 2.5em; line-height: 58px; height: 100px;padding-top: 30px; letter-spacing: 1px;}
+.text_sub_2{ font-weight: 300; color:white; font-size: 1em; line-height:28px; margin-top: 170px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+.text_sub_3{ font-weight: 200; color:white; font-size: 0.8em; line-height:12px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+.text_main_x{height: 100px;padding-top: 220px; padding-right: 70px;}
+.text_sub_x{ font-weight: 300; font-size: 1em; line-height:30px; padding-top: 120px; padding-right: 80px;}
+.img_box_2_x{width:600px; height: 750px; float: left;}
+img#bottle_x{width:770px; margin-top: 50px; padding-left: 50px; float: left; overflow: hidden;}
+.text_box_2_x{width:600px; height: 600px; float: left;margin-top: 160px; padding-left: 110px;}
+.text_main_2_x{ font-weight:600; color:white; font-size: 2.5em; line-height: 58px; height: 100px; letter-spacing: 1px; padding-top: 30px;}
+.text_sub_2_x{ font-weight: 300; color:white; font-size: 1em; line-height:28px; margin-top: 170px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+.text_sub_3_x{ font-weight: 200; color:white; font-size: 0.8em; line-height:12px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+
+/* Slideshow */
+/* Slideshow */
+
+.slideshow-container {max-width: 2000px; max-height:800px; overflow: hidden; position: relative; margin: auto;}
+.mySlides {display: none;}
+.prev, .next {cursor: pointer; position: absolute; top: 50%; width: auto; margin-top: -22px; margin-left: 20px; margin-right: 20px; padding: 15px; color: grey; font-weight: 200; font-size: 18px; transition: 0.6s ease; border-radius: 25px;}
+.next {right: 0; border-radius: 25px;}
+.prev:hover, .next:hover {background-color: #cf2e33;color: white;}
+.fade {-webkit-animation-name: fade; -webkit-animation-duration: 1s; animation-name: fade;animation-duration: 1s;}
+@-webkit-keyframes fade { from {opacity: .4} to {opacity: 1} }
+@keyframes fade { from {opacity: .4} to {opacity: 1}}
+
+/* Slideshow */
+/* Slideshow */
+
+
+</style>
+</head>
+<body>
+<header>
+	<div id="logo">
+			꽃 한 잔
+		</div>
+		<ul id="menu">
+			<li id="m1">1</li>
+			<li id="m2">2</li>
+			<li id="m3">3</li>
+			<li id="m4">4</li>
+			<li id="m5">5</li>
+			<li id="m6">6</li>
+		</ul>
+</header>
+<div class="section" id="sectionA">
+		
+		<div id="text_A">
+			<h1 id="titleA">꽃 한 잔?</h1>
+		</div>
+		<div id="img_A">
+			<img id= "flower" src="./flower.png">
+		</div>
+		<div id="img_A">
+			<img id= "beer" src="./beer.png">
+		</div>
+
+</div>
+
+
+<div class="section" id="sectionB">
+		<div id="img_B">
+			<img id= "logo_red" src="./logo_red.png">
+		</div>
+		<div id="text_B">
+			<h2 id="titleB">
+			<hr>
+			<p> </p>
+			<p>꽃 한 잔은 향기로운 꽃 술 한 잔을 말합니다.</p>
+			<p>작은 꽃 한 송이가 전해주는 즐거움.</p>
+			<p>꽃을 받을 때의 즐거움을 그대로 한 잔의 술에 담았습니다.</p>
+			<p>꽃 한 잔의 꽃 술을 마셨을때도 즐거움으로 가득찼으면 좋겠습니다.</p>
+			</h2>
+		</div>
+</div>	
+
+
+<div class="section" id="sectionC">
+	<h3 id="titleC">
+	<div id="icon">
+		<img src="./heart.png">
+	</div>
+	<p id=C_text><mark> 작은 꽃 한 송이가 전해주는 즐거움.</mark></p>
+ 	<p id=C_text><mark>꽃을 받을 때의 즐거움을 그대로 한 잔의 술에 담았습니다.</mark></p>
+ 	</h3>
+</div>
+
+
+<
+
+<div class="section" id="sectionE">
+	<h5 id="titleE">꽃 한 잔 제품소개<br>
+	-</h5>
+</div>
+
+<div class="section" id="sectionF">
+	<div class="img_box_2">
+      	<img id="bottle" src="./hong.png">
+    </div>
+      	<div class="text_box_2">
+      		<div class="text_main_2">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>홍화 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+</div>
+
+<div class="section" id="sectionG">
+	<div class="text_box_2_x">
+      		<div class="text_main_2_x">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>벚꽃 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2_x">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3_x">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+	<div class="img_box_2_x">
+      	<img id="bottle_x" src="./bu.png">
+    </div>
+      
+</div>
+
+<div class="section" id="sectionH">
+	<div class="img_box_2">
+      	<img id="bottle" src="./gae.png">
+    </div>
+      	<div class="text_box_2">
+      		<div class="text_main_2">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>홍화 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+</div>
+
+<div class="section" id="sectionI">
+	<div class="text_box_2_x">
+      		<div class="text_main_2_x">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>벚꽃 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2_x">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3_x">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+	<div class="img_box_2_x">
+      	<img id="bottle_x" src="./min.png">
+    </div>
+      
+</div>
+
+
+<script>
+	window.onscroll = function(){
+		console.log(document.body.scrollTop);
+		var scrollH = document.body.scrollTop;
+		if(scrollH > 50){
+			
+			sectionA.style.marginTop = "44px";
+		}else{
+			
+			sectionA.style.marginTop = "0px";
+
+		}
+
+		if(scrollH > 290){
+			titleA.style.paddingTop = "300px";
+			
+		}else{
+			titleA.style.paddingTop = "100px";
+			
+		}
+
+		if(scrollH > 390){
+			titleB.style.paddingTop = "270px";
+			titleB.style.transform = "scaleY(1)";
+			
+		}else{
+			titleB.style.paddingTop = "400px";
+			titleB.style.transform = "scaleY(0)";
+			
+		}
+
+		if(scrollH > 918){
+			sectionC.style.backgroundAttachment = "fixed";
+			
+		}else{
+			sectionC.style.backgroundAttachment = "scroll";
+			
+		}
+
+		if(scrollH > 1686){
+			sectionE.style.backgroundAttachment = "fixed";
+			
+		}else{
+			sectionE.style.backgroundAttachment = "scroll";
+			
+		}
+		
+
+		if(scrollH > 1924){
+			sectionE.style.background = "white";
+			titleE.style.fontSize = "2.5em";
+			titleE.style.fontWeight = "500";
+			
+		}else{
+			sectionE.style.background = "#cf2e33";
+			titleE.style.fontSize = "1.5em";
+			titleE.style.fontWeight = "200";
+			
+		}
+
+
+		if(scrollH > 2369){
+			sectionF.style.backgroundAttachment = "fixed";
+		}else{
+			sectionF.style.backgroundAttachment = "scroll";
+			
+		}
+
+		if(scrollH > 2789){
+			sectionG.style.backgroundAttachment = "fixed";
+		}else{
+			sectionG.style.backgroundAttachment = "scroll";
+			
+		}
+
+		if(scrollH > 3230){
+			sectionH.style.backgroundAttachment = "fixed";
+		}else{
+			sectionH.style.backgroundAttachment = "scroll";
+			
+		}
+
+		if(scrollH > 3900){
+			sectionI.style.backgroundAttachment = "fixed";
+		}else{
+			sectionI.style.backgroundAttachment = "scroll";
+			
+		}
+
+		
+	}
+	</script>
+
+</body>
