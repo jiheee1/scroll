@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <div class="section" id="sectionF">
+	<div class="img_box_2">
+      	<img id="bottle" src="./hong.png">
+    </div>
+      	<div class="text_box_2">
+      		<div class="text_main_2">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>꽃 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+
+	<h1 id="titleE"></h1>
+</div>
+
+<div class="section" id="sectionF">
+	<div class="img_box_2">
+      	<img id="bottle" src="./hong.png">
+    </div>
+      	<div class="text_box_2">
+      		<div class="text_main_2">
+      			“향기로운 꽃과 <br>스파클링 맥주가 만나 <br>
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+
+	<h1 id="titleE"></h1>
+</div>
+
+<div class="section" id="sectionF">
+	<div class="img_box_2">
+      	<img id="bottle" src="./hong.png">
+    </div>
+      	<div class="text_box_2">
+      		<div class="text_main_2">
+      			“향기로운 꽃과 <br> <br>꽃 맥주가 되다.”
+      			<hr class= "white_line">
+      		</div>
+      		<div class="text_sub_2">
+      			<p id="F_text">입안 가득 향기롭게 퍼지는 4가지의 다양한 꽃과</p>
+				<p id="F_text">낮은 도수의 스파클링 맥주로 부담없이</p>
+      			<p id="F_text">가볍게 누구나 즐길 수 있습니다.</p>
+      		</div>
+      		<div class="text_sub_3">
+      			<br>-</br>
+      			<br>홍화 12.8%</br>
+      			<br>375ml</br>
+      			<br>4.5% ALC/VOL.</br>
+      		</div>
+      	</div>
+
+	<h1 id="titleE"></h1>
+</div>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<style>
+	.text_box{width:600px; height: 800px; float: left;}
+.img_box{width:600px; height: 800px; float: left;}
+img#graphic{width:450px; height:450px;margin-top: 130px; margin-top: 160px; margin-left: 75px;}
+.text_main{height: 100px;padding-top: 220px; padding-left: 70px;}
+.text_sub{ font-weight: 300; font-size: 1em; line-height:30px; padding-top: 120px; padding-left: 80px;}
+.img_box_2{width:600px; height: 800px; float: left;}
+img#bottle{width:770px; margin-top: 50px; margin-left: -60px; float: left;}
+.text_box_2{width:600px; height: 800px; float: left;margin-top: 160px; padding-left: 30px;}
+.text_main_2{ font-weight:600; color:white; font-size: 2.5em; line-height: 58px; height: 100px;padding-top: 30px; letter-spacing: 1px;}
+.text_sub_2{ font-weight: 300; color:white; font-size: 1em; line-height:28px; margin-top: 170px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+.text_sub_3{ font-weight: 200; color:white; font-size: 0.8em; line-height:12px;}
+    * {box-sizing:border-box; word-break: keep-all;}
+</style>
+</body>
+</html>
